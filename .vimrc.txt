@@ -1,0 +1,9 @@
+set mouse=a
+set number
+set tabstop=4
+set expandtab
+set autoindent
+syntax on
+colorscheme delek
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%73v', 100)
